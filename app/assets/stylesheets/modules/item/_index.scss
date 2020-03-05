@@ -1,0 +1,101 @@
+.top {
+  background-image: url(bodybuilder-925770_1920.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  &__title {
+    // background-color: red;
+    font-size: 40px;
+    color: yellow;
+    padding-top: 150px;
+    padding-left: 100px;
+    text-shadow: 1px 2px 3px yellow; 
+  }
+
+  &__main {
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    overflow-wrap: break-word;
+    
+    
+    &--menu {
+      // background-color: royalblue;
+      padding-top: 30px;
+      text-shadow: 1px 2px 3px yellow; 
+    }
+    
+    &--text {
+      // background-color: seagreen;
+      padding-top: 30px;
+      text-shadow: 1px 2px 3px yellow; 
+    }
+
+  }
+
+}
+
+
+.grid {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding:50px;
+}
+
+.center {
+  // background: -moz-linear-gradient(top, #FFC778, transparent);
+  // background: -webkit-linear-gradient(top, #FFC778, transparent);
+  // background: linear-gradient(to bottom, #FFC778, transparent);
+  background-image: url(https://cdn.pixabay.com/photo/2017/01/09/11/30/dumbbell-1966247_1280.jpg);
+
+  &__text {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    color: yellow;
+    text-shadow: 1px 2px 3px yellow; 
+  }
+
+  .item {
+    height: 300px;
+    width: 100%;
+
+    &__image {
+      height: 100%;
+      width: 100%;
+      
+      .item_image {
+        height: 100%;
+        width: 100%;
+        border-radius: 120px;
+        &:hover{
+          color: #fff;
+        }
+      }
+    }
+    &__text{
+      .item-name{
+        color: yellow;
+        text-decoration: none;
+        &:hover{
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  &__text {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 200px;
+    line-height: 50px;
+    padding-top: 100px;
+    // background: radial-gradient(ellipse at center, rgb(2, 3, 3) 0%,rgb(72, 73, 75) 28%,rgb(73, 77, 82) 18%,rgb(255, 255, 255) 70%);
+  
+  }
+}

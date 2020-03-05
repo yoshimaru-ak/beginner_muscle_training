@@ -1,0 +1,27 @@
+.wrapper
+  .top
+    .top__title
+      Beginner Muscle Training
+    .top__main
+
+      .top__main--menu
+        筋トレ初心者にオススメの筋トレ動画をリストアップしました。
+      .top__main--text
+        鍛えたい部位の画像をクリックすると管理人オススメの筋トレ初心者向けの動画が表示されます。
+  .center
+    .center__text
+      鍛えたい部位をクリック
+      .grid
+        - @items.each do |item|
+          .item
+            = link_to item_path(item.id) do
+              .item__image
+                = image_tag item.image, class: "item_image"
+            .item__text
+              = link_to "#", class: "item-name" do
+                = item.name
+  .footer
+    .footer__text
+      ©️Copyright 2020 Beginner Muscle Training
+
+ 
