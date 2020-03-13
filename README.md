@@ -1,24 +1,24 @@
-# README
+アプリ名：Beginner Muscle Trauning
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+URL:https://beginner-muscle-training.herokuapp.com/
 
-Things you may want to cover:
+概要<br>
+筋トレ初心者にむけた筋トレ動画をまとめたWebサイトです。
 
-* Ruby version
+アプリ開発のきっかけ<br>
+「筋トレしたいけどやり方がわからない」という声を何度が耳にしたことからこのWebサイトを作ろうと思いました。<br>
+私も筋トレ始めたての頃どのような筋トレがどこの部位に効いているというのが分からなくどのサイトを調べても長ったらしい文章が多く動画が少なかったイメージがありました<br>
+YouTubeなどにも動画はありますが最近ではいろいろ動画があり何も見ればいいかわからないことが多かったです。<br>
+私の経験から私が初心者にはオススメだと思った動画のみをこのサイトでは載せています。<br>
 
-* System dependencies
+工夫したポイント<br>
+・他のサイトよりもシンプルにわかりやすくすることを心がけました。<br>
+シンプルに「この部位を鍛えたいけどいろんな動画あってどれを見ればいいかわからない」の問いに対しての答えを簡潔にしてあります。<br>
+・Ruby,Railsの使用
+最初はHTML、CSSだけで作成しようとしたのですがRuby,Railsを使用することでコードをかなり少なくできると思いRuby,Railsを導入しました。<br>
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+使用した技術<br>
+・Haml
+・Scss
+・Ruby(2.7.6)
+・Ruby on Rails(5.2.4.1)
